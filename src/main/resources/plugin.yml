@@ -1,0 +1,11 @@
+name: AntiCheat
+version: ${project.version}
+main: me.camden.ac.AntiCheatPlugin
+api-version: 1.17
+authors: [ Camden ]
+description: Custom Java and Bedrock AntiCheat Base
+
+commands:
+  acreload:
+    permission: anticheat.perms
+    description: Reload the plugin
